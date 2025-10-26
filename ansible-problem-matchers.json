@@ -1,0 +1,13 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "ansible",
+      "pattern": [
+        {
+          "regexp": "^\\s*\\[DEPRECATION WARNING\\]:\\s(.+)$",
+          "message": 1
+        }
+      ]
+    }
+  ]
+}

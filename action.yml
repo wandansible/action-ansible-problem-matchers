@@ -1,0 +1,9 @@
+---
+name: Ansible Problem Matchers Action
+description: Set up problem matchers for Ansible
+runs:
+  using: composite
+  steps:
+    - name: Set up problem matchers for Ansible
+      shell: bash
+      run: echo "::add-matcher::${{ github.action_path }}/ansible-problem-matchers.json"
