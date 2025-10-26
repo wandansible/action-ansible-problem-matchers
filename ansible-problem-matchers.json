@@ -4,8 +4,9 @@
       "owner": "ansible",
       "pattern": [
         {
-          "regexp": "^\\s*\\[DEPRECATION WARNING\\]:\\s(.+)$",
-          "message": 1
+          "regexp": "^\\s*\\[DEPRECATION (WARNING)\\]:\\s(.+)$",
+          "severity": 1,
+          "message": 2
         }
       ]
     }
